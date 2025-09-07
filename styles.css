@@ -37,15 +37,13 @@ body {
 .social-img {
     display: flex;
     justify-content: center;
+    gap: 4px;
 }
 
 img[src*="actual.jpg"] {
     width: 150px;
     height: 100%;
     border-radius: 50%;
-    border-style: none;
-    border-width: 6px;
-    border-style: double;
 }
 
 img[src*="20250630_085453.jpg"] {
@@ -54,9 +52,8 @@ img[src*="20250630_085453.jpg"] {
     border-radius: 50%;
     margin-left: -20px;
     margin-top: -10px;
-    border: 2px solid white;
-    border-style: double;
-    border-width: 3px;
+    border: 1px solid white;
+
 }
 
 
@@ -188,15 +185,14 @@ a {
     .social-img {
         display: flex;
         justify-content: center;
+        gap: 4px;
     }
 
     img[src*="actual.jpg"] {
         width: 150px;
         height: 100%;
         border-radius: 50%;
-        border-style: none;
-        border-width: 6px;
-        border-style: double;
+
     }
 
     img[src*="20250630_085453.jpg"] {
@@ -205,9 +201,8 @@ a {
         border-radius: 50%;
         margin-left: -20px;
         margin-top: -10px;
-        border: 2px solid white;
-        border-style: double;
-        border-width: 3px;
+        border: 1px solid white;
+
     }
 
 
@@ -339,15 +334,14 @@ a {
     .social-img {
         display: flex;
         justify-content: center;
+        gap: 4px;
     }
 
     img[src*="actual.jpg"] {
         width: 150px;
         height: 100%;
         border-radius: 50%;
-        border-style: none;
-        border-width: 6px;
-        border-style: double;
+
     }
 
     img[src*="20250630_085453.jpg"] {
@@ -356,9 +350,8 @@ a {
         border-radius: 50%;
         margin-left: -20px;
         margin-top: -10px;
-        border: 2px solid white;
-        border-style: double;
-        border-width: 3px;
+        border: 1px solid white;
+
     }
 
 
@@ -488,15 +481,13 @@ a {
     .social-img {
         display: flex;
         justify-content: center;
+        gap: 4px;
     }
 
     img[src*="actual.jpg"] {
         width: 150px;
         height: 100%;
         border-radius: 50%;
-        border-style: none;
-        border-width: 6px;
-        border-style: double;
     }
 
     img[src*="20250630_085453.jpg"] {
@@ -505,9 +496,7 @@ a {
         border-radius: 50%;
         margin-left: -20px;
         margin-top: -10px;
-        border: 2px solid white;
-        border-style: double;
-        border-width: 3px;
+        border: 1px solid white;
     }
 
 
@@ -639,15 +628,13 @@ a {
     .social-img {
         display: flex;
         justify-content: center;
+        gap: 4px;
     }
 
     img[src*="actual.jpg"] {
         width: 150px;
         height: 100%;
         border-radius: 50%;
-        border-style: none;
-        border-width: 6px;
-        border-style: double;
     }
 
     img[src*="20250630_085453.jpg"] {
@@ -656,9 +643,7 @@ a {
         border-radius: 50%;
         margin-left: -20px;
         margin-top: -10px;
-        border: 2px solid white;
-        border-style: double;
-        border-width: 3px;
+        border: 1px solid white;
     }
 
 
