@@ -1,0 +1,154 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: hsl(0, 0%, 20%)
+}
+
+.social-profile-link-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 12%);
+    margin: 100px 550px 150px 550px;
+    border-radius: 20px;
+    padding: 50px;
+
+
+}
+
+.social-profile-link-container  p {
+    text-align: center;
+}
+
+.social-profile-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    color: white;
+
+}
+
+.social-img {
+    display: flex;
+    justify-content: center;
+}
+
+img[src*="actual.jpg"] {
+    width: 150px;
+    height: 100%;
+    border-radius: 50%;
+    border-style: none;
+    border-width: 6px;
+    border: 2px solid yellow;
+    border-style: double;
+    border-width: 3px;
+}
+
+img[src*="20250630_085453.jpg"] {
+    width: 45px;
+    height: 100%;
+    border-radius: 50%;
+    margin-left: -20px;
+    margin-top: 20px;
+    border: 2px solid yellow;
+    border-style: double;
+    border-width: 1px;
+}
+
+
+
+.london {
+    color: hsl(75, 94%, 57%);
+}
+
+.external-link-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.github-container button {
+    background-color: hsl(0, 0%, 20%);
+    padding: 15px 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+    color: white;
+    border-style: none;
+
+}
+
+.tiktok-container button {
+    background-color: hsl(0, 0%, 20%);
+    padding: 15px 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+    color: white;
+    border-style: none;
+
+}
+
+
+.linkedin-container button {
+    background-color: hsl(0, 0%, 20%);
+    padding: 15px 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+    color: white;
+    border-style: none;
+
+}
+
+.twitter-container button {
+    background-color: hsl(0, 0%, 20%);
+    padding: 15px 135px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+    color: white;
+    border-style: none;
+
+}
+
+
+.instagram-container button {
+    background-color: hsl(0, 0%, 20%);
+    padding: 15px 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+    color: white;
+    border-style: none;
+}
+
+button:hover {
+    background-color: yellow;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
