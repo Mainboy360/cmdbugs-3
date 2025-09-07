@@ -151,9 +151,11 @@ a {
 }
 
 
+
+
 @media (min-width: 320px) {
      body {
-        background-color: hsl(0, 0%, 20%)
+        background-color: hsl(0, 16%, 91%)
     }
 
     .social-profile-link-container {
@@ -162,7 +164,7 @@ a {
         align-items: center;
         flex-direction: column;
         background-color: hsl(0, 0%, 12%);
-        margin: 10px 20px 20px 20px;
+        margin: 10px 10px 10px 10px;
         border-radius: 20px;
         padding: 50px;
 
@@ -280,6 +282,457 @@ a {
     .instagram-container button {
         background-color: hsl(0, 0%, 20%);
         padding: 10px 85px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 8px;
+        color: white;
+        border-style: none;
+    }
+
+    button:hover {
+        background-color: yellow;
+        color: black;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+}
+
+
+@media (min-width: 450px) {
+     body {
+        background-color: hsl(0, 0%, 20%)
+    }
+
+    .social-profile-link-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: hsl(0, 0%, 12%);
+        margin: 80px 20px 20px 20px;
+        border-radius: 20px;
+        padding: 50px;
+
+
+    }
+
+    .social-profile-link-container  p {
+        text-align: center;
+    }
+
+    .social-profile-link {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        color: white;
+
+    }
+
+    .social-img {
+        display: flex;
+        justify-content: center;
+    }
+
+    img[src*="actual.jpg"] {
+        width: 150px;
+        height: 100%;
+        border-radius: 50%;
+        border-style: none;
+        border-width: 6px;
+        border-style: double;
+    }
+
+    img[src*="20250630_085453.jpg"] {
+        width: 45px;
+        height: 100%;
+        border-radius: 50%;
+        margin-left: -20px;
+        margin-top: -10px;
+        border: 2px solid white;
+        border-style: double;
+        border-width: 3px;
+    }
+
+
+
+    .london {
+        color: hsl(75, 94%, 57%);
+    }
+
+    .external-link-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .github-container button {
+        background-color: hsl(0, 0%, 20%);
+        padding: 10px 98px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 8px;
+        color: white;
+        border-style: none;
+
+    }
+
+    .tiktok-container button {
+        background-color: hsl(0, 0%, 20%);
+        padding: 10px 98px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 8px;
+        color: white;
+        border-style: none;
+
+    }
+
+
+    .linkedin-container button {
+        background-color: hsl(0, 0%, 20%);
+        padding: 10px 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 8px;
+        color: white;
+        border-style: none;
+
+    }
+
+    .twitter-container button {
+        background-color: hsl(0, 0%, 20%);
+        padding: 10px 98px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 8px;
+        color: white;
+        border-style: none;
+
+    }
+
+
+    .instagram-container button {
+        background-color: hsl(0, 0%, 20%);
+        padding: 10px 85px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 8px;
+        color: white;
+        border-style: none;
+    }
+
+    button:hover {
+        background-color: yellow;
+        color: black;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+}
+
+
+@media (min-width: 787px) {
+     body {
+        background-color: hsl(0, 0%, 20%)
+    }
+
+    .social-profile-link-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: hsl(0, 0%, 12%);
+        margin: 100px 90px 20px 90px;
+        border-radius: 20px;
+        padding: 50px;
+    }
+
+    .social-profile-link-container  p {
+        text-align: center;
+    }
+
+    .social-profile-link {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        color: white;
+
+    }
+
+    .social-img {
+        display: flex;
+        justify-content: center;
+    }
+
+    img[src*="actual.jpg"] {
+        width: 150px;
+        height: 100%;
+        border-radius: 50%;
+        border-style: none;
+        border-width: 6px;
+        border-style: double;
+    }
+
+    img[src*="20250630_085453.jpg"] {
+        width: 45px;
+        height: 100%;
+        border-radius: 50%;
+        margin-left: -20px;
+        margin-top: -10px;
+        border: 2px solid white;
+        border-style: double;
+        border-width: 3px;
+    }
+
+
+
+    .london {
+        color: hsl(75, 94%, 57%);
+    }
+
+    .external-link-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .github-container button {
+        background-color: hsl(0, 0%, 20%);
+        padding: 10px 98px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 8px;
+        color: white;
+        border-style: none;
+
+    }
+
+    .tiktok-container button {
+        background-color: hsl(0, 0%, 20%);
+        padding: 10px 98px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 8px;
+        color: white;
+        border-style: none;
+
+    }
+
+
+    .linkedin-container button {
+        background-color: hsl(0, 0%, 20%);
+        padding: 10px 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 8px;
+        color: white;
+        border-style: none;
+
+    }
+
+    .twitter-container button {
+        background-color: hsl(0, 0%, 20%);
+        padding: 10px 98px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 8px;
+        color: white;
+        border-style: none;
+
+    }
+
+
+    .instagram-container button {
+        background-color: hsl(0, 0%, 20%);
+        padding: 10px 85px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 8px;
+        color: white;
+        border-style: none;
+    }
+
+    button:hover {
+        background-color: yellow;
+        color: black;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+}
+
+
+@media (min-width: 1440px) {
+    body {
+        background-color: hsl(0, 0%, 20%)
+    }
+
+    .social-profile-link-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: hsl(0, 0%, 12%);
+        margin: 100px 550px 150px 550px;
+        border-radius: 20px;
+        padding: 50px;
+
+
+    }
+
+    .social-profile-link-container  p {
+        text-align: center;
+    }
+
+    .social-profile-link {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        color: white;
+
+    }
+
+    .social-img {
+        display: flex;
+        justify-content: center;
+    }
+
+    img[src*="actual.jpg"] {
+        width: 150px;
+        height: 100%;
+        border-radius: 50%;
+        border-style: none;
+        border-width: 6px;
+        border-style: double;
+    }
+
+    img[src*="20250630_085453.jpg"] {
+        width: 45px;
+        height: 100%;
+        border-radius: 50%;
+        margin-left: -20px;
+        margin-top: -10px;
+        border: 2px solid white;
+        border-style: double;
+        border-width: 3px;
+    }
+
+
+
+    .london {
+        color: hsl(75, 94%, 57%);
+    }
+
+    .external-link-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .github-container button {
+        background-color: hsl(0, 0%, 20%);
+        padding: 15px 130px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 8px;
+        color: white;
+        border-style: none;
+
+    }
+
+    .tiktok-container button {
+        background-color: hsl(0, 0%, 20%);
+        padding: 15px 130px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 8px;
+        color: white;
+        border-style: none;
+
+    }
+
+
+    .linkedin-container button {
+        background-color: hsl(0, 0%, 20%);
+        padding: 15px 125px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 8px;
+        color: white;
+        border-style: none;
+
+    }
+
+    .twitter-container button {
+        background-color: hsl(0, 0%, 20%);
+        padding: 15px 135px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 8px;
+        color: white;
+        border-style: none;
+
+    }
+
+
+    .instagram-container button {
+        background-color: hsl(0, 0%, 20%);
+        padding: 15px 120px;
         display: flex;
         justify-content: center;
         align-items: center;
